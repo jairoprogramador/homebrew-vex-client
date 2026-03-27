@@ -3,7 +3,7 @@ cask "vex" do
   name "vex"
   desc "CLI multiplataforma para despliegues automáticos y rápidos de aplicaciones"
   homepage "https://github.com/jairoprogramador/vex-client"
-  version "0.0.23"
+  version "0.0.24"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "vex" do
   on_macos do
     on_intel do
       url "https://github.com/jairoprogramador/vex-client/releases/download/v#{version}/vex_darwin_amd64.tar.gz"
-      sha256 "6e5113ba5a891dfc4326b80e15277edc764c356e2f42d077fae17ab0b14f3fec"
+      sha256 "d4ec5aadc4aa7938e6d06545a551821807719f89de092afa8d34f8a0ab4f4aa8"
     end
     on_arm do
       url "https://github.com/jairoprogramador/vex-client/releases/download/v#{version}/vex_darwin_arm64.tar.gz"
-      sha256 "eab4e2f602fa32d56774ceff49b24c8fd90e29908663a45233e53653908c1f60"
+      sha256 "a400ba4d9efbb35ddf25155f54b2361dc440c4a897f24f23a9b9d53e9156ba66"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jairoprogramador/vex-client/releases/download/v#{version}/vex_linux_amd64.tar.gz"
-      sha256 "5229178839dff201b7aa614ba5f51ab908f29399e90e8a3e29804e4d1db56428"
+      sha256 "2a1f8e68f6ce7f6bd8ff7a2639302d6ffc35f2cbc101eec2d6e24df90770567f"
     end
     on_arm do
       url "https://github.com/jairoprogramador/vex-client/releases/download/v#{version}/vex_linux_arm64.tar.gz"
-      sha256 "a986754c96ea290207277847b97b32ac526a86559b7a0267b80cefa8910ef1ed"
+      sha256 "a8e51674e4d7c3dbbb0b5fd41ed34209c842994c222f2f48d588c9fe765283ea"
     end
   end
 
